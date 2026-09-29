@@ -14,7 +14,7 @@ class JSONFormatter(logging.Formatter):
             }
         )
 
-    def configure_logging() -> None:
-        handler = logging.StreamHandler()
-        handler.setFormatter(JSONFormatter())
-        logging.basicConfig(level=logging.INFO, handlers=[handler])
+def configure_logging() -> None:
+    handler = logging.StreamHandler()
+    handler.setFormatter(JSONFormatter())
+    logging.basicConfig(level=logging.INFO, handlers=[handler])

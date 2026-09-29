@@ -17,7 +17,7 @@ from finsight.models.schemas import Company, MarketSnapshot, Source
 
 
 
-class FinancialService:
+class FinanceService:
     def __init__(self, settings: Settings):
         self.settings = settings.prepare()
         self.cache = JsonCache(settings.data_dir / "cache" / "response.sqlite")
