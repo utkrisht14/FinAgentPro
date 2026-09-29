@@ -7,6 +7,7 @@ dependencies = [
     "bs4>=0.0.2",
     "fastmcp>=4.0.10",
     "httpx>=0.28.1",
+    "langchain-mcp-adapters>=0.3.1",
     "langchain[mcp]>=1.4.3",
     "numpy>=2.5.3",
     "pydantic>=2.13.5",
